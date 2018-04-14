@@ -1,0 +1,1 @@
+include ':example', ':min_annotations', ':min_compile', ':min_core', ':min_ec'

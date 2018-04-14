@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/header"
+        android:textColor="@color/wet_chat"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:text="手机"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/more"
+        android:textColor="@color/wet_chat"
+        android:textSize="20dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center|right"
+        android:text="更多 >"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:ignore="HardcodedText"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

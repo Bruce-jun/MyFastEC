@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':min_annotations')
+    compile 'com.squareup:javapoet:1.9.0' //简化代码，%90
+    compile 'com.google.auto.service:auto-service:1.0-rc3'
+    compile 'com.google.auto:auto-common:0.8'
+
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/item_background"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_item_section"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_marginTop="3dp"
+        android:id="@+id/tv_item_section"
+        android:textColor="@color/wet_chat"
+        android:gravity="center"
+        android:text="123"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
